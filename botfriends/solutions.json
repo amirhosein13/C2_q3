@@ -1,0 +1,90 @@
+{
+    "model.cpp": {
+        "verdict": "model_solution"
+    },
+    "boruvka.cpp": {
+        "verdict": "time_limit",
+        "except": {
+            "samples": "correct",
+            "n400": "correct",
+            "n2000": "correct"
+        }
+    },
+    "sub1_equal_a.cpp": {
+        "verdict": "incorrect",
+        "except": {
+            "equal_a": "correct"
+        }
+    },
+    "sub2_vertex_weights.cpp": {
+        "verdict": "incorrect",
+        "except": {
+            "equal_a": "correct",
+            "a_le_w": "correct"
+        }
+    },
+    "floyd.cpp": {
+        "verdict": "time_limit_and_runtime_error",
+        "except": {
+            "samples": "correct",
+            "n400": "correct",
+            "n2000": "time_limit"
+        }
+    },
+    "dijkstra_each.cpp": {
+        "verdict": "time_limit",
+        "except": {
+            "samples": "correct",
+            "n400": "correct",
+            "n2000": "correct"
+        }
+    },
+    "slow_spfa.cpp": {
+        "verdict": "correct",
+        "except": {
+            "full": "time_limit"
+        }
+    },
+    "brute_states.cpp": {
+        "verdict": "time_limit_and_runtime_error",
+        "except": {
+            "samples": "correct"
+        }
+    },
+    "wrong_star_min_a.cpp": {
+        "verdict": "incorrect",
+        "except": {
+            "samples": "correct"
+        }
+    },
+    "wrong_selfish.cpp": {
+        "verdict": "incorrect"
+    },
+    "wrong_no_leaf_edges.cpp": {
+        "verdict": "incorrect",
+        "except": {
+            "equal_a": "correct",
+            "a_le_w": "correct"
+        }
+    },
+    "wrong_root0.cpp": {
+        "verdict": "incorrect",
+        "except": {
+            "equal_a": "correct"
+        }
+    },
+    "wrong_int_a.cpp": {
+        "verdict": "incorrect",
+        "except": {
+            "samples": "correct",
+            "a_le_w": "correct"
+        }
+    },
+    "wrong_union_vertices.cpp": {
+        "verdict": "incorrect",
+        "except": {
+            "equal_a": "correct",
+            "a_le_w": "correct"
+        }
+    }
+}

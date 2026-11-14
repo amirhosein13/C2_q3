@@ -1,0 +1,12 @@
+{
+    "name": "botfriends",
+    "code": "botfriends",
+    "title": "دوستان ربات",
+    "type": "Batch",
+    "has_grader": true,
+    "java_enabled": false,
+    "python_enabled": false,
+    "time_limit": 2.0,
+    "memory_limit": 512,
+    "description": "Bot Friends 2 (adapted from an ICPC-style contest)"
+}
