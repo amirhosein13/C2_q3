@@ -59,3 +59,5 @@ ulimit -v 1500000
 | پوشه | عنوان | نوع |
 |---|---|---|
 | `botfriends/` | دوستان ربات | Batch با grader |
+
+راهنمای گام‌به‌گام آپلود این سوال در CMS: [`botfriends/UPLOAD-GUIDE-fa.md`](botfriends/UPLOAD-GUIDE-fa.md)
