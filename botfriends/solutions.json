@@ -3,12 +3,7 @@
         "verdict": "model_solution"
     },
     "boruvka.cpp": {
-        "verdict": "time_limit",
-        "except": {
-            "samples": "correct",
-            "n400": "correct",
-            "n2000": "correct"
-        }
+        "verdict": "correct"
     },
     "sub1_equal_a.cpp": {
         "verdict": "incorrect",
@@ -28,7 +23,7 @@
         "except": {
             "samples": "correct",
             "n400": "correct",
-            "n2000": "time_limit"
+            "n3000": "time_limit"
         }
     },
     "dijkstra_each.cpp": {
@@ -36,7 +31,7 @@
         "except": {
             "samples": "correct",
             "n400": "correct",
-            "n2000": "correct"
+            "n3000": "correct"
         }
     },
     "slow_spfa.cpp": {
