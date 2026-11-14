@@ -17,10 +17,12 @@ pip install psutil
 sudo apt install dos2unix
 ```
 
-ساخت PDF متن سوال به `pandoc`، `node` با `playwright` و فونت Vazirmatn نیاز دارد. فونت با این دستور نصب می‌شود:
+قراردادها و درس‌های کار با این ریپو در `CLAUDE.md` است. راهنمای آپلود فقط از پنل ادمین در `docs/cms-admin-only-fa.md` است.
+
+ساخت PDF متن سوال به `node` و Playwright (Chromium) نیاز دارد. یک بار در `tools/statement` این را بزنید:
 
 ```bash
-sudo apt install fonts-vazirmatn
+npm install
 ```
 
 ## دستورهای اصلی (داخل پوشه‌ی سوال)
@@ -35,7 +37,10 @@ tps invoke solution/model.cpp
 tps verify
 ```
 ```bash
-statement/build_pdf.sh
+node ../tools/statement/build.js statement/index.md statement/<task>-fa.pdf
+```
+```bash
+python3 ../tools/make_cms_upload.py statement/<task>-fa.pdf
 ```
 ```bash
 tps export CMS 1

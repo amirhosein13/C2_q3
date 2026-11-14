@@ -151,3 +151,6 @@ cmake-build-debug/
 __pycache__/
 *.py[cod]
 *$py.class
+
+# manual CMS upload package (large; rebuild with ../tools/make_cms_upload.py)
+/cms-upload/

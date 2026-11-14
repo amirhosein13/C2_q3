@@ -1,0 +1,11 @@
+{
+  "name": "statement-builder",
+  "private": true,
+  "description": "Builds RTL Persian statement PDFs (Markdown + KaTeX) with headless Chromium",
+  "dependencies": {
+    "@fontsource/vazirmatn": "5.0.19",
+    "katex": "0.16.11",
+    "markdown-it": "14.1.0",
+    "markdown-it-texmath": "1.0.0"
+  }
+}
