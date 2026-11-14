@@ -85,11 +85,18 @@ long long min_cost(int N, int M, std::vector<long long> A,
 
 ## آپلود در CMS (فقط پنل ادمین، نسخه‌ی 1.5.1)
 
+داخل همین پوشه:
+
 ```bash
 tps gen
 ```
 ```bash
-python3 ../tools/make_cms_upload.py statement/botfriends-fa.pdf
+../tools/statement-pdf/build.sh statement/index.md statement/botfriends-fa.pdf
+```
+```bash
+python3 ../tools/cms_upload.py statement/botfriends-fa.pdf
 ```
 
-خروجی در `cms-upload/` است. مقدار همه‌ی فیلدها در `cms-upload/SETTINGS.md` آمده و مراحل کامل در `docs/cms-admin-only-fa.md` است.
+خروجی در `cms-upload/` است و مقدار تک‌تک فیلدهای پنل در `cms-upload/SETTINGS.md` آمده.
+
+زیرمسئله‌ی نمونه‌ها (امتیاز ۰) در پارامترهای GroupMin نیست. CMS 1.5.1 زیرمسئله‌ها را بر اساس جایگاهشان شماره می‌زند، پس با آن، شماره‌ی همه‌ی زیرمسئله‌ها یکی جابه‌جا می‌شد. تست‌های نمونه همچنان داخل زیرمسئله‌های ۳ تا ۵ داوری می‌شوند.
